@@ -1,0 +1,115 @@
+
+
+html, body, {
+    position:fixed !important;
+    top:0 !important;
+    bottom:0 !important;
+    left:0 !important;
+    right:0 !important;
+    overflow: hidden !important;
+}
+
+
+
+
+.container {
+	padding-top: 12%;
+    padding-bottom: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body {
+ margin: 0;
+ background-image: url(../images/smoothie/background-navy.png);
+ background-size: cover !important;
+ background-repeat:repeat;
+}
+
+.header {
+    background: transparent;
+    position: fixed !important;
+    z-index: 1040;
+    height: 81px;
+    width: 100%;
+    padding: 0 40px;
+    left: 0;
+    -webkit-transition: height .3s ease-out,
+                        background .3s ease-out,
+                        box-shadow .5s,
+                        left .2s cubic-bezier(.645, .045, .355, 1),
+                        -webkit-transform .5s;
+            transition: height .3s ease-out,
+                background .3s ease-out,
+                box-shadow .5s,
+                left .2s cubic-bezier(.645, .045, .355, 1),
+                -webkit-transform .5s;
+            transition: height .3s ease-out,
+                background .3s ease-out,
+                transform .5s,
+                box-shadow .5s,
+                left .2s cubic-bezier(.645, .045, .355, 1);
+            transition: height .3s ease-out,
+                background .3s ease-out,
+                transform .5s,
+                box-shadow .5s,
+                left .2s cubic-bezier(.645, .045, .355, 1),
+                -webkit-transform .5s;
+    box-shadow: none;
+    font-family: "Poppins", Arial, serif;
+    border-bottom: 0px solid rgba(220, 220, 220, .2) !important;
+}
+
+#navbar li {
+	padding-right: 50px !important;
+    padding-left: 50px !important;
+    padding-bottom: 80px !important;
+    padding-top: 20px !important;
+    line-height: 25% !important;
+
+}
+
+a {
+	
+	font-family: bubblegum-pop-shadow, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    color: #fb4e1e  !important;
+    font-size: 120% !important;
+}
+
+a:focus {
+	text-decoration: line-through;
+}
+
+
+.carousel-content {
+  position: absolute;
+  bottom: 80%;
+  left: 5%;
+  right: 50%;
+  top: 25%;
+  z-index: 20;
+  font-family: "noteworthy", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+    color: #fb4e1e  !important;
+    font-size: 90%;
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: left !important;
+  opacity: .9;
+  -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1f41 !important;
+}
+
+.carousel-content span {
+  font-family: bubblegum-pop-highlight, sans-serif;
+  color: #fcf5de;
+  font-size: 170% !important;
+  font-style: normal;
+  text-shadow: 2px 2px #fb4e1e;
+  -webkit-text-stroke-width: 0px !important;
+
+}
+

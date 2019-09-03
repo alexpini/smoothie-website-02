@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*! -----------------------------------------------------------------
+[Master Stylesheet]
+
+Project:     Core
+Version:     1.3.3
+
+------------------------------------------------------------------
+[General Styles]
+*/
+
+.slides-container {
+    margin: 5%;
+}
+
+#slides .container {
+    margin: 5%;
+}
+
+
+.module-header {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Hind", Arial, serif;
+    line-height: 1.85;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999;
+    -ms-overflow-style: scrollbar;
+    overflow-x: hidden;
+}
+
+
